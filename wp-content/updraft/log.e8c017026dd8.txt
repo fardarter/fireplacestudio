@@ -1,0 +1,686 @@
+0000.000 (0) Opened log file at time: Wed, 16 Jan 2019 15:01:32 +0000 on https://www.fireplacestudio.co.za
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.7 WP: 4.9.9 PHP: 5.6.39-0+deb8u1 (fpm-fcgi, Linux www9.jnb2.host-h.net 4.9.0-0.bpo.8-amd64 #1 SMP Debian 4.9.110-3+deb9u5~deb8u1 (2018-10-03) x86_64) MySQL: 10.0.37-MariaDB-1~jessie WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 56M | 57M) multisite: N openssl: OpenSSL 1.0.1t  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.007 (0) Free space on disk containing Updraft's temporary directory: 74286.8 MB
+0000.011 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.024 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.029 (0) Semaphore (fd, wp_options) was stuck, set lock time to 2019-01-16 15:01:32
+0000.034 (0) Semaphore (fd, wp_options) reset to 1
+0000.038 (0) Set semaphore last lock (fd) time to 2019-01-16 15:01:32
+0000.041 (0) Semaphore lock (fd) complete
+0000.051 (0) Backup run: resumption=0, nonce=e8c017026dd8, begun at=1547650892 (0s ago), job type=backup
+0000.055 (0) Scheduling a resumption (1) after 300 seconds (1547651192) in case this run gets aborted
+0000.075 (0) Checking if we have a zip executable available
+0000.078 (0) Testing: /usr/bin/zip
+0000.090 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.094 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.096 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.099 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.101 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.112 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.115 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.129 (0) Working binary zip found: /usr/bin/zip
+0000.134 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.137 (0) Creation of backups of directories: beginning
+0000.146 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0007.924 (0) Total entities for the zip file: 1028 directories, 5551 files (0 skipped as non-modified), 76.1 MB
+0007.928 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0007.984 (0) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: size is now: 0.20 MB
+0008.250 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 100 files added (on-disk size: 241 KB)
+0008.308 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 200 files added (on-disk size: 241 KB)
+0008.370 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 300 files added (on-disk size: 241 KB)
+0008.429 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 400 files added (on-disk size: 241 KB)
+0008.483 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 500 files added (on-disk size: 241 KB)
+0008.487 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.9 MB, 5551 files batched, 501 (502) added so far); re-opening (prior size: 241 KB)
+0009.152 (0) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: size is now: 4.40 MB
+0009.228 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 600 files added (on-disk size: 4492.9 KB)
+0009.290 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 700 files added (on-disk size: 4492.9 KB)
+0009.345 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 800 files added (on-disk size: 4492.9 KB)
+0009.408 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 900 files added (on-disk size: 4492.9 KB)
+0009.461 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 1000 files added (on-disk size: 4492.9 KB)
+0009.465 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4 MB, 5551 files batched, 501 (1003) added so far); re-opening (prior size: 4492.9 KB)
+0009.742 (0) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: size is now: 5.80 MB
+0009.801 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 1100 files added (on-disk size: 5973.6 KB)
+0009.850 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 1200 files added (on-disk size: 5973.6 KB)
+0009.902 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 1300 files added (on-disk size: 5973.6 KB)
+0009.952 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 1400 files added (on-disk size: 5973.6 KB)
+0010.006 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 1500 files added (on-disk size: 5973.6 KB)
+0010.011 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.9 MB, 5551 files batched, 501 (1504) added so far); re-opening (prior size: 5973.6 KB)
+0010.651 (0) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: size is now: 9.40 MB
+0010.726 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 1600 files added (on-disk size: 9623.9 KB)
+0010.789 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 1700 files added (on-disk size: 9623.9 KB)
+0010.858 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 1800 files added (on-disk size: 9623.9 KB)
+0010.926 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 1900 files added (on-disk size: 9623.9 KB)
+0010.989 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 2000 files added (on-disk size: 9623.9 KB)
+0010.995 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3 MB, 5551 files batched, 501 (2005) added so far); re-opening (prior size: 9623.9 KB)
+0011.355 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 2100 files added (on-disk size: 10621.6 KB)
+0011.423 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 2200 files added (on-disk size: 10621.6 KB)
+0011.493 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 2300 files added (on-disk size: 10621.6 KB)
+0011.562 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 2400 files added (on-disk size: 10621.6 KB)
+0011.611 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 2500 files added (on-disk size: 10621.6 KB)
+0011.616 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (14.9 MB, 5551 files batched, 501 (2506) added so far); re-opening (prior size: 10621.6 KB)
+0012.451 (0) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: size is now: 14.40 MB
+0012.511 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 2600 files added (on-disk size: 14697.7 KB)
+0012.565 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 2700 files added (on-disk size: 14697.7 KB)
+0012.616 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 2800 files added (on-disk size: 14697.7 KB)
+0012.664 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 2900 files added (on-disk size: 14697.7 KB)
+0012.714 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 3000 files added (on-disk size: 14697.7 KB)
+0012.720 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.7 MB, 5551 files batched, 501 (3007) added so far); re-opening (prior size: 14697.7 KB)
+0013.345 (0) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: size is now: 17.20 MB
+0013.400 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 3100 files added (on-disk size: 17662.2 KB)
+0013.450 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 3200 files added (on-disk size: 17662.2 KB)
+0013.505 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 3300 files added (on-disk size: 17662.2 KB)
+0013.561 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 3400 files added (on-disk size: 17662.2 KB)
+0013.622 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 3500 files added (on-disk size: 17662.2 KB)
+0013.631 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.1 MB, 5551 files batched, 501 (3508) added so far); re-opening (prior size: 17662.2 KB)
+0014.179 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 3600 files added (on-disk size: 20009.3 KB)
+0014.242 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 3700 files added (on-disk size: 20009.3 KB)
+0014.298 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 3800 files added (on-disk size: 20009.3 KB)
+0014.354 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 3900 files added (on-disk size: 20009.3 KB)
+0014.406 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 4000 files added (on-disk size: 20009.3 KB)
+0014.413 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.4 MB, 5551 files batched, 501 (4009) added so far); re-opening (prior size: 20009.3 KB)
+0014.945 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 4100 files added (on-disk size: 22063.9 KB)
+0015.003 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 4200 files added (on-disk size: 22063.9 KB)
+0015.055 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 4300 files added (on-disk size: 22063.9 KB)
+0015.106 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 4400 files added (on-disk size: 22063.9 KB)
+0015.157 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 4500 files added (on-disk size: 22063.9 KB)
+0015.166 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.9 MB, 5551 files batched, 501 (4510) added so far); re-opening (prior size: 22063.9 KB)
+0015.512 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 4600 files added (on-disk size: 25501.3 KB)
+0015.584 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 4700 files added (on-disk size: 25501.3 KB)
+0015.663 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 4800 files added (on-disk size: 25501.3 KB)
+0015.741 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 4900 files added (on-disk size: 25501.3 KB)
+0015.807 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 5000 files added (on-disk size: 25501.3 KB)
+0015.817 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.7 MB, 5551 files batched, 501 (5011) added so far); re-opening (prior size: 25501.3 KB)
+0016.215 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 5100 files added (on-disk size: 26420.9 KB)
+0016.286 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 5200 files added (on-disk size: 26420.9 KB)
+0016.361 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 5300 files added (on-disk size: 26420.9 KB)
+0016.433 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 5400 files added (on-disk size: 26420.9 KB)
+0016.490 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip.tmp: 5500 files added (on-disk size: 26420.9 KB)
+0016.499 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.3 MB, 5551 files batched, 501 (5512) added so far); re-opening (prior size: 26420.9 KB)
+0017.299 (0) Created plugins zip (0) - 27560.8 KB in 17.1 s (1607.5 KB/s) (sha1: aa5898890aa2496831aaed56f71208a1123409d0, sha256: 1c79f6fe45dc46f37d5ff2b8638c7a659e699707c9ea6268ccf9198e0b049a97)
+0017.306 (0) Beginning creation of dump of themes (split every: 400 MB)
+0020.643 (0) Total entities for the zip file: 527 directories, 2209 files (0 skipped as non-modified), 43.2 MB
+0020.651 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0020.690 (0) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-themes.zip.tmp: size is now: 0.10 MB
+0020.893 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-themes.zip.tmp: 100 files added (on-disk size: 133.1 KB)
+0020.967 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-themes.zip.tmp: 200 files added (on-disk size: 133.1 KB)
+0021.037 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-themes.zip.tmp: 300 files added (on-disk size: 133.1 KB)
+0021.105 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-themes.zip.tmp: 400 files added (on-disk size: 133.1 KB)
+0021.168 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-themes.zip.tmp: 500 files added (on-disk size: 133.1 KB)
+0021.173 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.7 MB, 2209 files batched, 501 (502) added so far); re-opening (prior size: 133.1 KB)
+0021.793 (0) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-themes.zip.tmp: size is now: 4.20 MB
+0021.866 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-themes.zip.tmp: 600 files added (on-disk size: 4334.7 KB)
+0021.930 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-themes.zip.tmp: 700 files added (on-disk size: 4334.7 KB)
+0021.982 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-themes.zip.tmp: 800 files added (on-disk size: 4334.7 KB)
+0022.035 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-themes.zip.tmp: 900 files added (on-disk size: 4334.7 KB)
+0022.088 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-themes.zip.tmp: 1000 files added (on-disk size: 4334.7 KB)
+0022.092 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.1 MB, 2209 files batched, 501 (1003) added so far); re-opening (prior size: 4334.7 KB)
+0022.446 (0) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-themes.zip.tmp: size is now: 11.70 MB
+0022.504 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-themes.zip.tmp: 1100 files added (on-disk size: 11958.9 KB)
+0022.568 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-themes.zip.tmp: 1200 files added (on-disk size: 11958.9 KB)
+0022.635 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-themes.zip.tmp: 1300 files added (on-disk size: 11958.9 KB)
+0022.707 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-themes.zip.tmp: 1400 files added (on-disk size: 11958.9 KB)
+0022.774 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-themes.zip.tmp: 1500 files added (on-disk size: 11958.9 KB)
+0022.779 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.6 MB, 2209 files batched, 501 (1504) added so far); re-opening (prior size: 11958.9 KB)
+0023.444 (0) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-themes.zip.tmp: size is now: 17.20 MB
+0023.516 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-themes.zip.tmp: 1600 files added (on-disk size: 17651 KB)
+0023.580 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-themes.zip.tmp: 1700 files added (on-disk size: 17651 KB)
+0023.644 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-themes.zip.tmp: 1800 files added (on-disk size: 17651 KB)
+0023.696 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-themes.zip.tmp: 1900 files added (on-disk size: 17651 KB)
+0023.749 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-themes.zip.tmp: 2000 files added (on-disk size: 17651 KB)
+0023.755 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.8 MB, 2209 files batched, 501 (2005) added so far); re-opening (prior size: 17651 KB)
+0024.144 (0) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-themes.zip.tmp: size is now: 24.20 MB
+0024.205 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-themes.zip.tmp: 2100 files added (on-disk size: 24777.4 KB)
+0024.252 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-themes.zip.tmp: 2200 files added (on-disk size: 24777.4 KB)
+0024.753 (0) Created themes zip (0) - 27418.6 KB in 7.4 s (3685.7 KB/s) (sha1: aa1d48a5b54910abd6e6e17e0a19742b83df0c9f, sha256: 694b7c525f23dd898075e015e3205a9740bb386890bfad1de7384bbc28b173c1)
+0024.762 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0024.764 (0) Looking for candidates to backup in: /usr/www/users/firepyhszj/wp-content/uploads
+0024.767 (0) finding files: 2018: adding to list (1)
+0024.770 (0) finding files: 2017: adding to list (2)
+0024.772 (0) finding files: freshizer: adding to list (3)
+0024.774 (0) finding files: 2015: adding to list (4)
+0024.776 (0) finding files: 2016: adding to list (5)
+0024.779 (0) finding files: 2019: adding to list (6)
+0024.781 (0) finding files: revslider: adding to list (7)
+0024.783 (0) finding files: js_composer: adding to list (8)
+0024.786 (0) finding files: freshframework: adding to list (9)
+0024.788 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0026.606 (0) Total entities for the zip file: 55 directories, 2304 files (0 skipped as non-modified), 340.9 MB
+0026.660 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0026.708 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0026.731 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.3 MB, 2304 files batched, 239 (239) added so far); re-opening (prior size: 0 KB)
+0027.618 (0) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-uploads.zip.tmp: size is now: 21.30 MB
+0027.629 (0) A useful amount of data was added after this amount of zip processing: 3.8 s (normalised: 3.7 s, rate: 6890.2 KB/s)
+0027.634 (0) Performance is good - will increase the amount of data we attempt to batch (time=3.7634379863739, normalised_time=3.7154121905981, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=42333499)
+0027.672 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-uploads.zip.tmp: 300 files added (on-disk size: 21819 KB)
+0027.717 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-uploads.zip.tmp: 400 files added (on-disk size: 21819 KB)
+0027.745 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 40.4 MB added on this batch (40.4 MB, 2304 files batched, 217 (456) added so far); re-opening (prior size: 21819 KB)
+0028.556 (0) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-uploads.zip.tmp: size is now: 60.90 MB
+0028.568 (0) A useful amount of data was added after this amount of zip processing: 1.7 s (normalised: 1.7 s, rate: 24335.1 KB/s)
+0028.574 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.7016370296478, normalised_time=1.6988323620303, max_time=-1, data points known=0, old_max_bytes=42333499, new_max_bytes=149515043)
+0028.604 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-uploads.zip.tmp: 500 files added (on-disk size: 62353.3 KB)
+0028.649 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-uploads.zip.tmp: 600 files added (on-disk size: 62353.3 KB)
+0028.694 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-uploads.zip.tmp: 700 files added (on-disk size: 62353.3 KB)
+0028.739 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-uploads.zip.tmp: 800 files added (on-disk size: 62353.3 KB)
+0028.784 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-uploads.zip.tmp: 900 files added (on-disk size: 62353.3 KB)
+0028.812 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (81.4 MB, 2304 files batched, 501 (957) added so far); re-opening (prior size: 62353.3 KB)
+0030.002 (0) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-uploads.zip.tmp: size is now: 142.50 MB
+0030.034 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-uploads.zip.tmp: 1000 files added (on-disk size: 145887.1 KB)
+0030.079 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-uploads.zip.tmp: 1100 files added (on-disk size: 145887.1 KB)
+0030.125 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-uploads.zip.tmp: 1200 files added (on-disk size: 145887.1 KB)
+0030.173 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-uploads.zip.tmp: 1300 files added (on-disk size: 145887.1 KB)
+0030.223 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-uploads.zip.tmp: 1400 files added (on-disk size: 145887.1 KB)
+0030.254 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (98.8 MB, 2304 files batched, 501 (1458) added so far); re-opening (prior size: 145887.1 KB)
+0032.631 (0) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-uploads.zip.tmp: size is now: 216.20 MB
+0032.669 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-uploads.zip.tmp: 1500 files added (on-disk size: 221429.1 KB)
+0032.717 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-uploads.zip.tmp: 1600 files added (on-disk size: 221429.1 KB)
+0032.765 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-uploads.zip.tmp: 1700 files added (on-disk size: 221429.1 KB)
+0032.813 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-uploads.zip.tmp: 1800 files added (on-disk size: 221429.1 KB)
+0032.861 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-uploads.zip.tmp: 1900 files added (on-disk size: 221429.1 KB)
+0032.892 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (73.4 MB, 2304 files batched, 501 (1959) added so far); re-opening (prior size: 221429.1 KB)
+0035.351 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-uploads.zip.tmp: 2000 files added (on-disk size: 265646.2 KB)
+0035.401 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-uploads.zip.tmp: 2100 files added (on-disk size: 265646.2 KB)
+0035.455 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-uploads.zip.tmp: 2200 files added (on-disk size: 265646.2 KB)
+0035.504 (0) Zip: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-uploads.zip.tmp: 2300 files added (on-disk size: 265646.2 KB)
+0039.498 (0) Created uploads zip (0) - 278447 KB in 14.7 s (18942.4 KB/s) (sha1: 481369d553946f2cabdd2135fddbd013c3d873ff, sha256: 4c5dd7983746b4df76a2b34f8a8c234f723e5888892270b682950dcb40cd4e70)
+0039.508 (0) Beginning backup of other directories found in the content directory (index: 0)
+0039.510 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0039.512 (0) Looking for candidates to backup in: /usr/www/users/firepyhszj/wp-content
+0039.515 (0) finding files: themes: skipping: this is the themes directory
+0039.517 (0) finding files: uploads: skipping: this is the uploads directory
+0039.519 (0) finding files: plugins: skipping: this is the plugins directory
+0039.522 (0) finding files: upgrade: skipping: excluded by options
+0039.523 (0) finding files: updraft: skipping: this is the updraft directory
+0039.526 (0) finding files: index.php: adding to list (1)
+0039.528 (0) finding files: debug.log: skipping: excluded by options
+0039.542 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+0039.555 (0) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-others.zip.tmp: size is now: 0.00 MB
+0039.579 (0) Created others zip (0) - 0.2 KB in 0 s (4.6 KB/s) (sha1: 52a61c6c3bf2a13ae3e0a58543c629fa8058bb20, sha256: 6f6177a9e11a8e8d01ea9965f7a9af53352fc4f1264b045b4a9306d5019d3ccf)
+0039.602 (0) Saving backup status to database (elements: 8)
+0039.609 (0) Beginning creation of database dump (WordPress DB)
+0039.624 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0039.667 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1196 bytes total)
+0039.672 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0039.686 (0) Table wp_options: Total expected rows (approximate): 291
+0039.738 (0) Table wp_options: Total rows added: 291 in 0.05 seconds
+0039.741 (0) Table wp_options: finishing file (backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-db-table-wp_options.table.gz - 170.1 KB)
+0039.750 (0) Table wp_users: Total expected rows (approximate): 5
+0039.756 (0) Table wp_users: Total rows added: 5 in 0.00 seconds
+0039.759 (0) Table wp_users: finishing file (backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-db-table-wp_users.table.gz - 0.9 KB)
+0039.769 (0) Table wp_usermeta: Total expected rows (approximate): 101
+0039.777 (0) Table wp_usermeta: Total rows added: 115 in 0.01 seconds
+0039.780 (0) Table wp_usermeta: finishing file (backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-db-table-wp_usermeta.table.gz - 3.1 KB)
+0039.799 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0039.804 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0039.808 (0) Table wp_commentmeta: finishing file (backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0039.819 (0) Table wp_comments: Total expected rows (approximate): 0
+0039.824 (0) Table wp_comments: Total rows added: 0 in 0.00 seconds
+0039.827 (0) Table wp_comments: finishing file (backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-db-table-wp_comments.table.gz - 0.5 KB)
+0039.846 (0) Table wp_links: Total expected rows (approximate): 0
+0039.853 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0039.856 (0) Table wp_links: finishing file (backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-db-table-wp_links.table.gz - 0.4 KB)
+0039.867 (0) Table wp_postmeta: Total expected rows (approximate): 31191
+0040.017 (0) Table wp_postmeta: binary mysqldump finished (writes: 34) in 0.15 seconds
+0040.021 (0) Table wp_postmeta: finishing file (backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-db-table-wp_postmeta.table.gz - 348.7 KB)
+0040.030 (0) Table wp_posts: Total expected rows (approximate): 1533
+0040.189 (0) Table wp_posts: Total rows added: 1633 in 0.16 seconds
+0040.192 (0) Table wp_posts: finishing file (backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-db-table-wp_posts.table.gz - 115.4 KB)
+0040.203 (0) Table wp_term_relationships: Total expected rows (approximate): 216
+0040.211 (0) Table wp_term_relationships: Total rows added: 216 in 0.01 seconds
+0040.214 (0) Table wp_term_relationships: finishing file (backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-db-table-wp_term_relationships.table.gz - 1 KB)
+0040.224 (0) Table wp_term_taxonomy: Total expected rows (approximate): 74
+0040.232 (0) Table wp_term_taxonomy: Total rows added: 74 in 0.00 seconds
+0040.235 (0) Table wp_term_taxonomy: finishing file (backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-db-table-wp_term_taxonomy.table.gz - 1 KB)
+0040.245 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0040.250 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0040.253 (0) Table wp_termmeta: finishing file (backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-db-table-wp_termmeta.table.gz - 0.4 KB)
+0040.265 (0) Table wp_terms: Total expected rows (approximate): 74
+0040.272 (0) Table wp_terms: Total rows added: 74 in 0.00 seconds
+0040.275 (0) Table wp_terms: finishing file (backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-db-table-wp_terms.table.gz - 1.2 KB)
+0040.293 (0) Table wp_hidemysiteSecure: Total expected rows (approximate): 0
+0040.298 (0) Table wp_hidemysiteSecure: Total rows added: 0 in 0.00 seconds
+0040.301 (0) Table wp_hidemysiteSecure: finishing file (backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-db-table-wp_hidemysiteSecure.table.gz - 0.3 KB)
+0040.312 (0) Table wp_revslider_css: Total expected rows (approximate): 47
+0040.320 (0) Table wp_revslider_css: Total rows added: 47 in 0.00 seconds
+0040.323 (0) Table wp_revslider_css: finishing file (backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-db-table-wp_revslider_css.table.gz - 1.7 KB)
+0040.333 (0) Table wp_revslider_layer_animations: Total expected rows (approximate): 0
+0040.338 (0) Table wp_revslider_layer_animations: Total rows added: 0 in 0.00 seconds
+0040.341 (0) Table wp_revslider_layer_animations: finishing file (backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-db-table-wp_revslider_layer_animations.table.gz - 0.3 KB)
+0040.352 (0) Table wp_revslider_settings: Total expected rows (approximate): 0
+0040.357 (0) Table wp_revslider_settings: Total rows added: 1 in 0.00 seconds
+0040.360 (0) Table wp_revslider_settings: finishing file (backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-db-table-wp_revslider_settings.table.gz - 0.3 KB)
+0040.372 (0) Table wp_revslider_sliders: Total expected rows (approximate): 3
+0040.378 (0) Table wp_revslider_sliders: Total rows added: 3 in 0.00 seconds
+0040.381 (0) Table wp_revslider_sliders: finishing file (backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-db-table-wp_revslider_sliders.table.gz - 1.7 KB)
+0040.392 (0) Table wp_revslider_slides: Total expected rows (approximate): 6
+0040.399 (0) Table wp_revslider_slides: Total rows added: 6 in 0.00 seconds
+0040.402 (0) Table wp_revslider_slides: finishing file (backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-db-table-wp_revslider_slides.table.gz - 2.2 KB)
+0040.421 (0) Table wp_revslider_static_slides: Total expected rows (approximate): 0
+0040.427 (0) Table wp_revslider_static_slides: Total rows added: 0 in 0.00 seconds
+0040.430 (0) Table wp_revslider_static_slides: finishing file (backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-db-table-wp_revslider_static_slides.table.gz - 0.3 KB)
+0040.441 (0) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-db-table-wp_options.table.gz (1/19): adding to final database dump
+0040.476 (0) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-db-table-wp_users.table.gz (2/19): adding to final database dump
+0040.478 (0) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-db-table-wp_usermeta.table.gz (3/19): adding to final database dump
+0040.481 (0) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-db-table-wp_commentmeta.table.gz (4/19): adding to final database dump
+0040.484 (0) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-db-table-wp_comments.table.gz (5/19): adding to final database dump
+0040.487 (0) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-db-table-wp_links.table.gz (6/19): adding to final database dump
+0040.489 (0) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-db-table-wp_postmeta.table.gz (7/19): adding to final database dump
+0040.564 (0) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-db-table-wp_posts.table.gz (8/19): adding to final database dump
+0040.597 (0) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-db-table-wp_term_relationships.table.gz (9/19): adding to final database dump
+0040.600 (0) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-db-table-wp_term_taxonomy.table.gz (10/19): adding to final database dump
+0040.604 (0) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-db-table-wp_termmeta.table.gz (11/19): adding to final database dump
+0040.607 (0) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-db-table-wp_terms.table.gz (12/19): adding to final database dump
+0040.610 (0) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-db-table-wp_hidemysiteSecure.table.gz (13/19): adding to final database dump
+0040.612 (0) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-db-table-wp_revslider_css.table.gz (14/19): adding to final database dump
+0040.616 (0) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-db-table-wp_revslider_layer_animations.table.gz (15/19): adding to final database dump
+0040.619 (0) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-db-table-wp_revslider_settings.table.gz (16/19): adding to final database dump
+0040.622 (0) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-db-table-wp_revslider_sliders.table.gz (17/19): adding to final database dump
+0040.625 (0) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-db-table-wp_revslider_slides.table.gz (18/19): adding to final database dump
+0040.629 (0) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-db-table-wp_revslider_static_slides.table.gz (19/19): adding to final database dump
+0040.632 (0) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-db.gz: finished writing out complete database file (616 KB)
+0040.660 (0) Total database tables backed up: 19 (backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-db.gz, size: 660959, sha256)
+0040.718 (0) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0040.720 (0) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0040.723 (0) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0040.726 (0) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-others.zip: others: This file has not yet been successfully uploaded: will queue
+0040.728 (0) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-db.gz: db: This file has not yet been successfully uploaded: will queue
+0040.731 (0) Saving backup history. Total backup size: 326.2 MB
+0040.738 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0040.746 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0040.749 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-390249345270e40d22c18ae29a0cb692)
+0045.298 (0) Google Drive quota usage: used=18171.2 MB, total=30720 MB, available=12548.8 MB
+0045.302 (0) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip: Attempting to upload to Google Drive (into folder id: 15OC46WwzeMmBwNbgwEHdEeF6puWEkZhi)
+0047.596 (0) Googledrive chunked upload: 3.7 % uploaded (1048576)
+0048.838 (0) Googledrive chunked upload: 7.4 % uploaded (2097152)
+0050.131 (0) Googledrive chunked upload: 11.1 % uploaded (3145728)
+0052.417 (0) Googledrive chunked upload: 14.9 % uploaded (4194304)
+0053.932 (0) Googledrive chunked upload: 18.6 % uploaded (5242880)
+0055.332 (0) Googledrive chunked upload: 22.3 % uploaded (6291456)
+0057.583 (0) Googledrive chunked upload: 26 % uploaded (7340032)
+0059.126 (0) Googledrive chunked upload: 29.7 % uploaded (8388608)
+0060.362 (0) Googledrive chunked upload: 33.4 % uploaded (9437184)
+0061.666 (0) Googledrive chunked upload: 37.2 % uploaded (10485760)
+0063.027 (0) Googledrive chunked upload: 40.9 % uploaded (11534336)
+0065.341 (0) Googledrive chunked upload: 44.6 % uploaded (12582912)
+0066.620 (0) Googledrive chunked upload: 48.3 % uploaded (13631488)
+0067.890 (0) Googledrive chunked upload: 52 % uploaded (14680064)
+0069.254 (0) Googledrive chunked upload: 55.7 % uploaded (15728640)
+0070.573 (0) Googledrive chunked upload: 59.4 % uploaded (16777216)
+0072.851 (0) Googledrive chunked upload: 63.2 % uploaded (17825792)
+0074.201 (0) Googledrive chunked upload: 66.9 % uploaded (18874368)
+0075.539 (0) Googledrive chunked upload: 70.6 % uploaded (19922944)
+0077.779 (0) Googledrive chunked upload: 74.3 % uploaded (20971520)
+0079.112 (0) Googledrive chunked upload: 78 % uploaded (22020096)
+0080.404 (0) Googledrive chunked upload: 81.7 % uploaded (23068672)
+0081.735 (0) Googledrive chunked upload: 85.5 % uploaded (24117248)
+0083.005 (0) Googledrive chunked upload: 89.2 % uploaded (25165824)
+0084.319 (0) Googledrive chunked upload: 92.9 % uploaded (26214400)
+0085.582 (0) Googledrive chunked upload: 96.6 % uploaded (27262976)
+0088.155 (0) Googledrive chunked upload: 100 % uploaded (27262976)
+0088.164 (0) OK: Archive backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip uploaded to Google Drive in 42.86 seconds
+0088.168 (0) Recording as successfully uploaded: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip
+0088.180 (0) Deleting local file: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip: OK
+0088.871 (0) Google Drive quota usage: used=18198.1 MB, total=30720 MB, available=12521.9 MB
+0088.874 (0) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-themes.zip: Attempting to upload to Google Drive (into folder id: 15OC46WwzeMmBwNbgwEHdEeF6puWEkZhi)
+0090.965 (0) Googledrive chunked upload: 3.7 % uploaded (1048576)
+0092.298 (0) Googledrive chunked upload: 7.5 % uploaded (2097152)
+0094.580 (0) Googledrive chunked upload: 11.2 % uploaded (3145728)
+0095.860 (0) Googledrive chunked upload: 14.9 % uploaded (4194304)
+0097.139 (0) Googledrive chunked upload: 18.7 % uploaded (5242880)
+0098.666 (0) Googledrive chunked upload: 22.4 % uploaded (6291456)
+0099.924 (0) Googledrive chunked upload: 26.1 % uploaded (7340032)
+0101.443 (0) Googledrive chunked upload: 29.9 % uploaded (8388608)
+0102.734 (0) Googledrive chunked upload: 33.6 % uploaded (9437184)
+0104.092 (0) Googledrive chunked upload: 37.3 % uploaded (10485760)
+0105.631 (0) Googledrive chunked upload: 41.1 % uploaded (11534336)
+0107.117 (0) Googledrive chunked upload: 44.8 % uploaded (12582912)
+0108.443 (0) Googledrive chunked upload: 48.6 % uploaded (13631488)
+0109.753 (0) Googledrive chunked upload: 52.3 % uploaded (14680064)
+0110.999 (0) Googledrive chunked upload: 56 % uploaded (15728640)
+0112.326 (0) Googledrive chunked upload: 59.8 % uploaded (16777216)
+0113.994 (0) Googledrive chunked upload: 63.5 % uploaded (17825792)
+0115.303 (0) Googledrive chunked upload: 67.2 % uploaded (18874368)
+0116.630 (0) Googledrive chunked upload: 71 % uploaded (19922944)
+0117.928 (0) Googledrive chunked upload: 74.7 % uploaded (20971520)
+0119.443 (0) Googledrive chunked upload: 78.4 % uploaded (22020096)
+0120.853 (0) Googledrive chunked upload: 82.2 % uploaded (23068672)
+0122.205 (0) Googledrive chunked upload: 85.9 % uploaded (24117248)
+0123.561 (0) Googledrive chunked upload: 89.6 % uploaded (25165824)
+0124.793 (0) Googledrive chunked upload: 93.4 % uploaded (26214400)
+0126.152 (0) Googledrive chunked upload: 97.1 % uploaded (27262976)
+0128.607 (0) Googledrive chunked upload: 100 % uploaded (27262976)
+0128.614 (0) OK: Archive backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-themes.zip uploaded to Google Drive in 39.74 seconds
+0128.616 (0) Recording as successfully uploaded: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-themes.zip
+0128.626 (0) Deleting local file: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-themes.zip: OK
+0129.384 (0) Google Drive quota usage: used=18224.9 MB, total=30720 MB, available=12495.1 MB
+0129.389 (0) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-uploads.zip: Attempting to upload to Google Drive (into folder id: 15OC46WwzeMmBwNbgwEHdEeF6puWEkZhi)
+0131.438 (0) Googledrive chunked upload: 0.4 % uploaded (1048576)
+0132.718 (0) Googledrive chunked upload: 0.7 % uploaded (2097152)
+0133.959 (0) Googledrive chunked upload: 1.1 % uploaded (3145728)
+0135.244 (0) Googledrive chunked upload: 1.5 % uploaded (4194304)
+0136.503 (0) Googledrive chunked upload: 1.8 % uploaded (5242880)
+0137.728 (0) Googledrive chunked upload: 2.2 % uploaded (6291456)
+0138.990 (0) Googledrive chunked upload: 2.6 % uploaded (7340032)
+0140.272 (0) Googledrive chunked upload: 2.9 % uploaded (8388608)
+0141.679 (0) Googledrive chunked upload: 3.3 % uploaded (9437184)
+0143.162 (0) Googledrive chunked upload: 3.7 % uploaded (10485760)
+0144.450 (0) Googledrive chunked upload: 4 % uploaded (11534336)
+0145.813 (0) Googledrive chunked upload: 4.4 % uploaded (12582912)
+0147.191 (0) Googledrive chunked upload: 4.8 % uploaded (13631488)
+0148.725 (0) Googledrive chunked upload: 5.1 % uploaded (14680064)
+0150.278 (0) Googledrive chunked upload: 5.5 % uploaded (15728640)
+0151.545 (0) Googledrive chunked upload: 5.9 % uploaded (16777216)
+0153.257 (0) Googledrive chunked upload: 6.3 % uploaded (17825792)
+0154.598 (0) Googledrive chunked upload: 6.6 % uploaded (18874368)
+0155.995 (0) Googledrive chunked upload: 7 % uploaded (19922944)
+0157.365 (0) Googledrive chunked upload: 7.4 % uploaded (20971520)
+0158.719 (0) Googledrive chunked upload: 7.7 % uploaded (22020096)
+0159.989 (0) Googledrive chunked upload: 8.1 % uploaded (23068672)
+0161.284 (0) Googledrive chunked upload: 8.5 % uploaded (24117248)
+0162.540 (0) Googledrive chunked upload: 8.8 % uploaded (25165824)
+0163.814 (0) Googledrive chunked upload: 9.2 % uploaded (26214400)
+0165.092 (0) Googledrive chunked upload: 9.6 % uploaded (27262976)
+0166.607 (0) Googledrive chunked upload: 9.9 % uploaded (28311552)
+0168.116 (0) Googledrive chunked upload: 10.3 % uploaded (29360128)
+0169.624 (0) Googledrive chunked upload: 10.7 % uploaded (30408704)
+0170.935 (0) Googledrive chunked upload: 11 % uploaded (31457280)
+0172.325 (0) Googledrive chunked upload: 11.4 % uploaded (32505856)
+0173.648 (0) Googledrive chunked upload: 11.8 % uploaded (33554432)
+0175.230 (0) Googledrive chunked upload: 12.1 % uploaded (34603008)
+0176.483 (0) Googledrive chunked upload: 12.5 % uploaded (35651584)
+0177.750 (0) Googledrive chunked upload: 12.9 % uploaded (36700160)
+0178.992 (0) Googledrive chunked upload: 13.2 % uploaded (37748736)
+0180.279 (0) Googledrive chunked upload: 13.6 % uploaded (38797312)
+0181.539 (0) Googledrive chunked upload: 14 % uploaded (39845888)
+0182.930 (0) Googledrive chunked upload: 14.3 % uploaded (40894464)
+0184.200 (0) Googledrive chunked upload: 14.7 % uploaded (41943040)
+0185.422 (0) Googledrive chunked upload: 15.1 % uploaded (42991616)
+0186.672 (0) Googledrive chunked upload: 15.4 % uploaded (44040192)
+0187.917 (0) Googledrive chunked upload: 15.8 % uploaded (45088768)
+0189.151 (0) Googledrive chunked upload: 16.2 % uploaded (46137344)
+0190.432 (0) Googledrive chunked upload: 16.5 % uploaded (47185920)
+0191.694 (0) Googledrive chunked upload: 16.9 % uploaded (48234496)
+0193.052 (0) Googledrive chunked upload: 17.3 % uploaded (49283072)
+0194.368 (0) Googledrive chunked upload: 17.7 % uploaded (50331648)
+0195.717 (0) Googledrive chunked upload: 18 % uploaded (51380224)
+0197.228 (0) Googledrive chunked upload: 18.4 % uploaded (52428800)
+0198.603 (0) Googledrive chunked upload: 18.8 % uploaded (53477376)
+0200.112 (0) Googledrive chunked upload: 19.1 % uploaded (54525952)
+0201.401 (0) Googledrive chunked upload: 19.5 % uploaded (55574528)
+0202.936 (0) Googledrive chunked upload: 19.9 % uploaded (56623104)
+0204.324 (0) Googledrive chunked upload: 20.2 % uploaded (57671680)
+0205.842 (0) Googledrive chunked upload: 20.6 % uploaded (58720256)
+0207.382 (0) Googledrive chunked upload: 21 % uploaded (59768832)
+0208.663 (0) Googledrive chunked upload: 21.3 % uploaded (60817408)
+0209.919 (0) Googledrive chunked upload: 21.7 % uploaded (61865984)
+0211.188 (0) Googledrive chunked upload: 22.1 % uploaded (62914560)
+0212.520 (0) Googledrive chunked upload: 22.4 % uploaded (63963136)
+0214.190 (0) Googledrive chunked upload: 22.8 % uploaded (65011712)
+0215.436 (0) Googledrive chunked upload: 23.2 % uploaded (66060288)
+0216.886 (0) Googledrive chunked upload: 23.5 % uploaded (67108864)
+0218.162 (0) Googledrive chunked upload: 23.9 % uploaded (68157440)
+0219.414 (0) Googledrive chunked upload: 24.3 % uploaded (69206016)
+0220.684 (0) Googledrive chunked upload: 24.6 % uploaded (70254592)
+0222.202 (0) Googledrive chunked upload: 25 % uploaded (71303168)
+0223.488 (0) Googledrive chunked upload: 25.4 % uploaded (72351744)
+0224.725 (0) Googledrive chunked upload: 25.7 % uploaded (73400320)
+0226.233 (0) Googledrive chunked upload: 26.1 % uploaded (74448896)
+0227.779 (0) Googledrive chunked upload: 26.5 % uploaded (75497472)
+0229.028 (0) Googledrive chunked upload: 26.8 % uploaded (76546048)
+0230.317 (0) Googledrive chunked upload: 27.2 % uploaded (77594624)
+0231.556 (0) Googledrive chunked upload: 27.6 % uploaded (78643200)
+0232.809 (0) Googledrive chunked upload: 27.9 % uploaded (79691776)
+0234.081 (0) Googledrive chunked upload: 28.3 % uploaded (80740352)
+0235.382 (0) Googledrive chunked upload: 28.7 % uploaded (81788928)
+0236.634 (0) Googledrive chunked upload: 29.1 % uploaded (82837504)
+0237.902 (0) Googledrive chunked upload: 29.4 % uploaded (83886080)
+0239.200 (0) Googledrive chunked upload: 29.8 % uploaded (84934656)
+0240.469 (0) Googledrive chunked upload: 30.2 % uploaded (85983232)
+0241.763 (0) Googledrive chunked upload: 30.5 % uploaded (87031808)
+0243.106 (0) Googledrive chunked upload: 30.9 % uploaded (88080384)
+0244.428 (0) Googledrive chunked upload: 31.3 % uploaded (89128960)
+0245.643 (0) Googledrive chunked upload: 31.6 % uploaded (90177536)
+0246.906 (0) Googledrive chunked upload: 32 % uploaded (91226112)
+0248.146 (0) Googledrive chunked upload: 32.4 % uploaded (92274688)
+0249.432 (0) Googledrive chunked upload: 32.7 % uploaded (93323264)
+0250.704 (0) Googledrive chunked upload: 33.1 % uploaded (94371840)
+0251.964 (0) Googledrive chunked upload: 33.5 % uploaded (95420416)
+0253.218 (0) Googledrive chunked upload: 33.8 % uploaded (96468992)
+0254.559 (0) Googledrive chunked upload: 34.2 % uploaded (97517568)
+0255.880 (0) The scheduled resumption is within 45 seconds - will reschedule
+0255.885 (0) Rescheduling resumption 1: moving to 345 seconds from now (1547651493)
+0255.891 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 45 = 345
+0255.893 (0) Googledrive chunked upload: 34.6 % uploaded (98566144)
+0257.317 (0) Googledrive chunked upload: 34.9 % uploaded (99614720)
+0258.638 (0) Googledrive chunked upload: 35.3 % uploaded (100663296)
+0260.176 (0) Googledrive chunked upload: 35.7 % uploaded (101711872)
+0261.399 (0) Googledrive chunked upload: 36 % uploaded (102760448)
+0262.704 (0) Googledrive chunked upload: 36.4 % uploaded (103809024)
+0264.028 (0) Googledrive chunked upload: 36.8 % uploaded (104857600)
+0265.279 (0) Googledrive chunked upload: 37.1 % uploaded (105906176)
+0266.928 (0) Googledrive chunked upload: 37.5 % uploaded (106954752)
+0269.185 (0) Googledrive chunked upload: 37.9 % uploaded (108003328)
+0270.546 (0) Googledrive chunked upload: 38.2 % uploaded (109051904)
+0271.745 (0) Googledrive chunked upload: 38.6 % uploaded (110100480)
+0273.054 (0) Googledrive chunked upload: 39 % uploaded (111149056)
+0274.368 (0) Googledrive chunked upload: 39.3 % uploaded (112197632)
+0275.584 (0) Googledrive chunked upload: 39.7 % uploaded (113246208)
+0276.891 (0) Googledrive chunked upload: 40.1 % uploaded (114294784)
+0278.156 (0) Googledrive chunked upload: 40.5 % uploaded (115343360)
+0279.500 (0) Googledrive chunked upload: 40.8 % uploaded (116391936)
+0280.862 (0) Googledrive chunked upload: 41.2 % uploaded (117440512)
+0282.129 (0) Googledrive chunked upload: 41.6 % uploaded (118489088)
+0283.405 (0) Googledrive chunked upload: 41.9 % uploaded (119537664)
+0284.906 (0) Googledrive chunked upload: 42.3 % uploaded (120586240)
+0286.250 (0) Googledrive chunked upload: 42.7 % uploaded (121634816)
+0287.483 (0) Googledrive chunked upload: 43 % uploaded (122683392)
+0288.758 (0) Googledrive chunked upload: 43.4 % uploaded (123731968)
+0290.040 (0) Googledrive chunked upload: 43.8 % uploaded (124780544)
+0291.386 (0) Googledrive chunked upload: 44.1 % uploaded (125829120)
+0292.662 (0) Googledrive chunked upload: 44.5 % uploaded (126877696)
+0293.983 (0) Googledrive chunked upload: 44.9 % uploaded (127926272)
+0295.297 (0) Googledrive chunked upload: 45.2 % uploaded (128974848)
+0296.848 (0) Googledrive chunked upload: 45.6 % uploaded (130023424)
+0298.147 (0) Googledrive chunked upload: 46 % uploaded (131072000)
+0299.448 (0) Googledrive chunked upload: 46.3 % uploaded (132120576)
+0300.674 (0) Googledrive chunked upload: 46.7 % uploaded (133169152)
+0302.014 (0) Googledrive chunked upload: 47.1 % uploaded (134217728)
+0303.250 (0) Googledrive chunked upload: 47.4 % uploaded (135266304)
+0601.610 (1) Opened log file at time: Wed, 16 Jan 2019 15:11:33 +0000 on https://www.fireplacestudio.co.za
+0601.613 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.7 WP: 4.9.9 PHP: 5.6.39-0+deb8u1 (fpm-fcgi, Linux www9.jnb2.host-h.net 4.9.0-0.bpo.8-amd64 #1 SMP Debian 4.9.110-3+deb9u5~deb8u1 (2018-10-03) x86_64) MySQL: 10.0.37-MariaDB-1~jessie WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 46.1M | 47.5M) multisite: N openssl: OpenSSL 1.0.1t  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0601.616 (1) Free space on disk containing Updraft's temporary directory: 74014.3 MB
+0601.622 (1) Backup run: resumption=1, nonce=e8c017026dd8, begun at=1547650892 (601s ago), job type=backup, previous check-in=303.2s
+0601.627 (1) Scheduling a resumption (2) after 345 seconds (1547651838) in case this run gets aborted
+0601.643 (1) Checking if we have a zip executable available
+0601.645 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0601.647 (1) Creation of backups of directories: already finished
+0601.654 (1) Saving backup status to database (elements: 8)
+0601.667 (1) Database dump (WordPress DB): Creation was completed already
+0601.680 (1) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-plugins.zip: plugins: This file has already been successfully uploaded
+0601.683 (1) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-themes.zip: themes: This file has already been successfully uploaded
+0601.686 (1) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0601.689 (1) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-others.zip: others: This file has not yet been successfully uploaded: will queue
+0601.691 (1) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-db.gz: db: This file has not yet been successfully uploaded: will queue
+0601.694 (1) Saving backup history. Total backup size: 326.2 MB
+0601.701 (1) Requesting upload of the files that have not yet been successfully uploaded (3)
+0601.703 (1) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0601.706 (1) Beginning dispatch of backup to remote (googledrive) (instance identifier s-390249345270e40d22c18ae29a0cb692)
+0604.235 (1) Google Drive quota usage: used=18224.9 MB, total=30720 MB, available=12495.1 MB
+0604.238 (1) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-uploads.zip: Attempting to upload to Google Drive (into folder id: 15OC46WwzeMmBwNbgwEHdEeF6puWEkZhi)
+0604.706 (1) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-uploads.zip: upload already began; attempting to resume from byte 136314879
+0606.008 (1) Googledrive chunked upload: 48.2 % uploaded (137363456)
+0607.252 (1) Googledrive chunked upload: 48.5 % uploaded (138412032)
+0608.612 (1) Googledrive chunked upload: 48.9 % uploaded (139460608)
+0609.852 (1) Googledrive chunked upload: 49.3 % uploaded (140509184)
+0611.137 (1) Googledrive chunked upload: 49.6 % uploaded (141557760)
+0612.498 (1) Googledrive chunked upload: 50 % uploaded (142606336)
+0613.825 (1) Googledrive chunked upload: 50.4 % uploaded (143654912)
+0615.137 (1) Googledrive chunked upload: 50.8 % uploaded (144703488)
+0616.402 (1) Googledrive chunked upload: 51.1 % uploaded (145752064)
+0617.673 (1) Googledrive chunked upload: 51.5 % uploaded (146800640)
+0618.926 (1) Googledrive chunked upload: 51.9 % uploaded (147849216)
+0620.178 (1) Googledrive chunked upload: 52.2 % uploaded (148897792)
+0621.381 (1) Googledrive chunked upload: 52.6 % uploaded (149946368)
+0622.624 (1) Googledrive chunked upload: 53 % uploaded (150994944)
+0623.879 (1) Googledrive chunked upload: 53.3 % uploaded (152043520)
+0625.427 (1) Googledrive chunked upload: 53.7 % uploaded (153092096)
+0626.731 (1) Googledrive chunked upload: 54.1 % uploaded (154140672)
+0627.993 (1) Googledrive chunked upload: 54.4 % uploaded (155189248)
+0629.302 (1) Googledrive chunked upload: 54.8 % uploaded (156237824)
+0630.535 (1) Googledrive chunked upload: 55.2 % uploaded (157286400)
+0631.813 (1) Googledrive chunked upload: 55.5 % uploaded (158334976)
+0633.117 (1) Googledrive chunked upload: 55.9 % uploaded (159383552)
+0634.386 (1) Googledrive chunked upload: 56.3 % uploaded (160432128)
+0635.707 (1) Googledrive chunked upload: 56.6 % uploaded (161480704)
+0637.218 (1) Googledrive chunked upload: 57 % uploaded (162529280)
+0638.721 (1) Googledrive chunked upload: 57.4 % uploaded (163577856)
+0640.187 (1) Googledrive chunked upload: 57.7 % uploaded (164626432)
+0641.420 (1) Googledrive chunked upload: 58.1 % uploaded (165675008)
+0642.985 (1) Googledrive chunked upload: 58.5 % uploaded (166723584)
+0644.237 (1) Googledrive chunked upload: 58.8 % uploaded (167772160)
+0645.495 (1) Googledrive chunked upload: 59.2 % uploaded (168820736)
+0646.809 (1) Googledrive chunked upload: 59.6 % uploaded (169869312)
+0648.079 (1) Googledrive chunked upload: 59.9 % uploaded (170917888)
+0649.608 (1) Googledrive chunked upload: 60.3 % uploaded (171966464)
+0650.870 (1) Googledrive chunked upload: 60.7 % uploaded (173015040)
+0652.368 (1) Googledrive chunked upload: 61 % uploaded (174063616)
+0653.675 (1) Googledrive chunked upload: 61.4 % uploaded (175112192)
+0654.958 (1) Googledrive chunked upload: 61.8 % uploaded (176160768)
+0656.296 (1) Googledrive chunked upload: 62.2 % uploaded (177209344)
+0657.596 (1) Googledrive chunked upload: 62.5 % uploaded (178257920)
+0658.963 (1) Googledrive chunked upload: 62.9 % uploaded (179306496)
+0660.326 (1) Googledrive chunked upload: 63.3 % uploaded (180355072)
+0661.630 (1) Googledrive chunked upload: 63.6 % uploaded (181403648)
+0663.076 (1) Googledrive chunked upload: 64 % uploaded (182452224)
+0664.317 (1) Googledrive chunked upload: 64.4 % uploaded (183500800)
+0665.621 (1) Googledrive chunked upload: 64.7 % uploaded (184549376)
+0666.927 (1) Googledrive chunked upload: 65.1 % uploaded (185597952)
+0668.188 (1) Googledrive chunked upload: 65.5 % uploaded (186646528)
+0669.429 (1) Googledrive chunked upload: 65.8 % uploaded (187695104)
+0670.649 (1) Googledrive chunked upload: 66.2 % uploaded (188743680)
+0671.912 (1) Googledrive chunked upload: 66.6 % uploaded (189792256)
+0673.206 (1) Googledrive chunked upload: 66.9 % uploaded (190840832)
+0674.464 (1) Googledrive chunked upload: 67.3 % uploaded (191889408)
+0675.741 (1) Googledrive chunked upload: 67.7 % uploaded (192937984)
+0677.020 (1) Googledrive chunked upload: 68 % uploaded (193986560)
+0678.234 (1) Googledrive chunked upload: 68.4 % uploaded (195035136)
+0679.587 (1) Googledrive chunked upload: 68.8 % uploaded (196083712)
+0680.886 (1) Googledrive chunked upload: 69.1 % uploaded (197132288)
+0682.196 (1) Googledrive chunked upload: 69.5 % uploaded (198180864)
+0683.563 (1) Googledrive chunked upload: 69.9 % uploaded (199229440)
+0684.877 (1) Googledrive chunked upload: 70.2 % uploaded (200278016)
+0686.139 (1) Googledrive chunked upload: 70.6 % uploaded (201326592)
+0687.644 (1) Googledrive chunked upload: 71 % uploaded (202375168)
+0688.851 (1) Googledrive chunked upload: 71.3 % uploaded (203423744)
+0690.168 (1) Googledrive chunked upload: 71.7 % uploaded (204472320)
+0691.529 (1) Googledrive chunked upload: 72.1 % uploaded (205520896)
+0693.033 (1) Googledrive chunked upload: 72.4 % uploaded (206569472)
+0694.303 (1) Googledrive chunked upload: 72.8 % uploaded (207618048)
+0695.676 (1) Googledrive chunked upload: 73.2 % uploaded (208666624)
+0696.960 (1) Googledrive chunked upload: 73.6 % uploaded (209715200)
+0698.289 (1) Googledrive chunked upload: 73.9 % uploaded (210763776)
+0699.522 (1) Googledrive chunked upload: 74.3 % uploaded (211812352)
+0700.817 (1) Googledrive chunked upload: 74.7 % uploaded (212860928)
+0702.030 (1) Googledrive chunked upload: 75 % uploaded (213909504)
+0703.395 (1) Googledrive chunked upload: 75.4 % uploaded (214958080)
+0704.738 (1) Googledrive chunked upload: 75.8 % uploaded (216006656)
+0706.044 (1) Googledrive chunked upload: 76.1 % uploaded (217055232)
+0707.431 (1) Googledrive chunked upload: 76.5 % uploaded (218103808)
+0708.711 (1) Googledrive chunked upload: 76.9 % uploaded (219152384)
+0709.928 (1) Googledrive chunked upload: 77.2 % uploaded (220200960)
+0711.195 (1) Googledrive chunked upload: 77.6 % uploaded (221249536)
+0712.460 (1) Googledrive chunked upload: 78 % uploaded (222298112)
+0713.690 (1) Googledrive chunked upload: 78.3 % uploaded (223346688)
+0714.965 (1) Googledrive chunked upload: 78.7 % uploaded (224395264)
+0716.329 (1) Googledrive chunked upload: 79.1 % uploaded (225443840)
+0717.592 (1) Googledrive chunked upload: 79.4 % uploaded (226492416)
+0719.110 (1) Googledrive chunked upload: 79.8 % uploaded (227540992)
+0720.630 (1) Googledrive chunked upload: 80.2 % uploaded (228589568)
+0721.882 (1) Googledrive chunked upload: 80.5 % uploaded (229638144)
+0723.242 (1) Googledrive chunked upload: 80.9 % uploaded (230686720)
+0724.781 (1) Googledrive chunked upload: 81.3 % uploaded (231735296)
+0726.149 (1) Googledrive chunked upload: 81.6 % uploaded (232783872)
+0727.391 (1) Googledrive chunked upload: 82 % uploaded (233832448)
+0728.691 (1) Googledrive chunked upload: 82.4 % uploaded (234881024)
+0729.983 (1) Googledrive chunked upload: 82.7 % uploaded (235929600)
+0731.268 (1) Googledrive chunked upload: 83.1 % uploaded (236978176)
+0732.592 (1) Googledrive chunked upload: 83.5 % uploaded (238026752)
+0733.880 (1) Googledrive chunked upload: 83.8 % uploaded (239075328)
+0735.313 (1) Googledrive chunked upload: 84.2 % uploaded (240123904)
+0736.840 (1) Googledrive chunked upload: 84.6 % uploaded (241172480)
+0738.122 (1) Googledrive chunked upload: 85 % uploaded (242221056)
+0739.462 (1) Googledrive chunked upload: 85.3 % uploaded (243269632)
+0740.730 (1) Googledrive chunked upload: 85.7 % uploaded (244318208)
+0742.024 (1) Googledrive chunked upload: 86.1 % uploaded (245366784)
+0743.546 (1) Googledrive chunked upload: 86.4 % uploaded (246415360)
+0744.843 (1) Googledrive chunked upload: 86.8 % uploaded (247463936)
+0746.100 (1) Googledrive chunked upload: 87.2 % uploaded (248512512)
+0747.631 (1) Googledrive chunked upload: 87.5 % uploaded (249561088)
+0749.032 (1) Googledrive chunked upload: 87.9 % uploaded (250609664)
+0750.326 (1) Googledrive chunked upload: 88.3 % uploaded (251658240)
+0751.571 (1) Googledrive chunked upload: 88.6 % uploaded (252706816)
+0753.038 (1) Googledrive chunked upload: 89 % uploaded (253755392)
+0754.305 (1) Googledrive chunked upload: 89.4 % uploaded (254803968)
+0755.648 (1) Googledrive chunked upload: 89.7 % uploaded (255852544)
+0756.936 (1) Googledrive chunked upload: 90.1 % uploaded (256901120)
+0758.230 (1) Googledrive chunked upload: 90.5 % uploaded (257949696)
+0759.502 (1) Googledrive chunked upload: 90.8 % uploaded (258998272)
+0760.772 (1) Googledrive chunked upload: 91.2 % uploaded (260046848)
+0762.150 (1) Googledrive chunked upload: 91.6 % uploaded (261095424)
+0763.490 (1) Googledrive chunked upload: 91.9 % uploaded (262144000)
+0764.810 (1) Googledrive chunked upload: 92.3 % uploaded (263192576)
+0766.294 (1) Googledrive chunked upload: 92.7 % uploaded (264241152)
+0767.662 (1) Googledrive chunked upload: 93 % uploaded (265289728)
+0768.962 (1) Googledrive chunked upload: 93.4 % uploaded (266338304)
+0770.220 (1) Googledrive chunked upload: 93.8 % uploaded (267386880)
+0771.463 (1) Googledrive chunked upload: 94.1 % uploaded (268435456)
+0772.714 (1) Googledrive chunked upload: 94.5 % uploaded (269484032)
+0773.959 (1) Googledrive chunked upload: 94.9 % uploaded (270532608)
+0775.205 (1) Googledrive chunked upload: 95.2 % uploaded (271581184)
+0776.812 (1) Googledrive chunked upload: 95.6 % uploaded (272629760)
+0778.144 (1) Googledrive chunked upload: 96 % uploaded (273678336)
+0779.742 (1) Googledrive chunked upload: 96.4 % uploaded (274726912)
+0781.070 (1) Googledrive chunked upload: 96.7 % uploaded (275775488)
+0782.324 (1) Googledrive chunked upload: 97.1 % uploaded (276824064)
+0783.634 (1) Googledrive chunked upload: 97.5 % uploaded (277872640)
+0784.883 (1) Googledrive chunked upload: 97.8 % uploaded (278921216)
+0786.272 (1) Googledrive chunked upload: 98.2 % uploaded (279969792)
+0787.593 (1) Googledrive chunked upload: 98.6 % uploaded (281018368)
+0788.842 (1) Googledrive chunked upload: 98.9 % uploaded (282066944)
+0790.084 (1) Googledrive chunked upload: 99.3 % uploaded (283115520)
+0791.352 (1) Googledrive chunked upload: 99.7 % uploaded (284164096)
+0795.003 (1) Googledrive chunked upload: 100 % uploaded (284164096)
+0795.012 (1) OK: Archive backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-uploads.zip uploaded to Google Drive in 190.77 seconds
+0795.015 (1) Recording as successfully uploaded: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-uploads.zip
+0795.065 (1) Deleting local file: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-uploads.zip: OK
+0795.757 (1) Google Drive quota usage: used=18496.8 MB, total=30720 MB, available=12223.2 MB
+0795.760 (1) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-others.zip: Attempting to upload to Google Drive (into folder id: 15OC46WwzeMmBwNbgwEHdEeF6puWEkZhi)
+0802.372 (1) Googledrive chunked upload: 100 % uploaded
+0802.382 (1) OK: Archive backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-others.zip uploaded to Google Drive in 6.62 seconds
+0802.384 (1) Recording as successfully uploaded: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-others.zip
+0802.391 (1) Deleting local file: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-others.zip: OK
+0803.268 (1) Google Drive quota usage: used=18496.8 MB, total=30720 MB, available=12223.2 MB
+0803.271 (1) backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-db.gz: Attempting to upload to Google Drive (into folder id: 15OC46WwzeMmBwNbgwEHdEeF6puWEkZhi)
+0806.904 (1) Googledrive chunked upload: 100 % uploaded
+0806.912 (1) OK: Archive backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-db.gz uploaded to Google Drive in 3.64 seconds
+0806.915 (1) Recording as successfully uploaded: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-db.gz
+0806.920 (1) Deleting local file: backup_2019-01-16-1701_Fire_Place_Studio_e8c017026dd8-db.gz: OK
+0806.926 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0806.936 (1) Number of backup sets in history: 2; groups (db): 1
+0806.938 (1) Examining (for databases) backup set with group_id=0, nonce=e8c017026dd8, datestamp=1547650892 (Jan 16 2019 15:01:32)
+0806.940 (1) This backup set is the backup set just made, so will not be deleted.
+0806.940 (1) Examining (for databases) backup set with group_id=0, nonce=924b2883a5ad, datestamp=1543574055 (Nov 30 2018 10:34:15)
+0806.940 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0806.942 (1) Number of backup sets in history: 2; groups (files): 1
+0806.944 (1) Examining (for files) backup set with nonce=e8c017026dd8, datestamp=1547650892 (Jan 16 2019 15:01:32)
+0806.944 (1) This backup set is the backup set just made, so will not be deleted.
+0806.946 (1) This backup set is the backup set just made, so will not be deleted.
+0806.947 (1) This backup set is the backup set just made, so will not be deleted.
+0806.947 (1) This backup set is the backup set just made, so will not be deleted.
+0806.947 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0806.949 (1) Examining (for files) backup set with nonce=924b2883a5ad, datestamp=1543574055 (Nov 30 2018 10:34:15)
+0806.949 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0806.950 (1) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0806.956 (1) Resume backup (e8c017026dd8, 1): finish run
+0806.960 (1) There were no errors in the uploads, so the 'resume' event (2) is being unscheduled
+0806.967 (1) No email will/can be sent - the user has not configured an email address.
+0806.969 (1) The backup apparently succeeded and is now complete
