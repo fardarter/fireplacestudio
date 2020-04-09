@@ -1,0 +1,11 @@
+[01-Oct-2018 17:55:38 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/gymmzbnb/public_html/wp-content/plugins/revslider/inc_php/framework/functions_wordpress.class.php on line 240
+[01-Oct-2018 17:55:38 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /home/gymmzbnb/public_html/wp-content/plugins/revslider/inc_php/framework/base_admin.class.php:73
+Stack trace:
+#0 /home/gymmzbnb/public_html/wp-content/plugins/revslider/revslider_admin.php(237): UniteBaseAdminClassRev::addMetaBox('Revolution Slid...', Object(UniteSettingsAdvancedRev), Array, NULL)
+#1 /home/gymmzbnb/public_html/wp-content/plugins/revslider/revslider_admin.php(68): RevSliderAdmin->addSliderMetaBox()
+#2 /home/gymmzbnb/public_html/wp-content/plugins/revslider/revslider_admin.php(40): RevSliderAdmin->init()
+#3 /home/gymmzbnb/public_html/wp-content/plugins/revslider/revslider.php(147): RevSliderAdmin->__construct('/home/gymmzbnb/...')
+#4 /home/gymmzbnb/public_html/wp-settings.php(254): include_once('/home/gymmzbnb/...')
+#5 /home/gymmzbnb/public_html/wp-config.php(185): require_once('/home/gymmzbnb/...')
+#6 /home/gymmzbnb/public_html/wp-load.php(37): require_once('/home/gymmzbnb/...')
+#7 /home/gymmzbnb/public_html/wp-admin/admin.php(31): requ in /home/gymmzbnb/public_html/wp-content/plugins/revslider/inc_php/framework/base_admin.class.php on line 73

@@ -1,0 +1,20 @@
+/* body */
+html, body{
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+/* headers */
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+/* inputs */
+button, input, select, textarea{
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+/* code */
+code, kbd, pre, samp{
+    font-family: monospace, serif;
+}
+

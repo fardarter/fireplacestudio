@@ -1,0 +1,6 @@
+[28-Mar-2016 07:03:09 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/gymmzbnb/public_html/wp-includes/rss-functions.php on line 8
+[30-Dec-2016 03:26:47 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/gymmzbnb/public_html/wp-includes/registration-functions.php on line 7
+[04-Jan-2017 17:59:53 UTC] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/gymmzbnb/public_html/wp-includes/functions.php on line 8
+[04-Jan-2017 17:59:53 UTC] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/gymmzbnb/public_html/wp-includes/functions.php on line 8
+[04-Jan-2017 17:59:53 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/gymmzbnb/public_html/wp-includes/functions.php on line 8
+[25-Mar-2017 17:22:16 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/gymmzbnb/public_html/wp-includes/registration-functions.php on line 7

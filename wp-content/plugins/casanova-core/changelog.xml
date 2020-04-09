@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog>
+    <release version="1.0.2" date="2015-05-11">
+        <change>Custom post types and taxonomies called by hook</change>
+    </release>
+    <release version="1.0.1" date="2015-05-11">
+        <change>Custom post types and taxonomies</change>
+    </release>
+    <release version="1.0.0" date="2015-03-31">
+        <change>Initial release</change>
+    </release>
+</changelog>
