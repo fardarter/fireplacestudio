@@ -6,66 +6,76 @@
  Text Domain:  fire-place-studio
 */
 
+.foobarfoobar {
+  border: 1px solid red;
+}
+
 .aircon-col {
-   width: 50%;
-   float: left;
-   display: flex;
-   justify-content: center;
-   min-width: 300px;
-   flex-wrap: wrap;
-   padding: 35px 0px 15px;
-   align-items: center;
+  width: 50%;
+  float: left;
+  display: flex;
+  justify-content: center;
+  min-width: 300px;
+  flex-wrap: wrap;
+  padding: 35px 0px 15px;
+  align-items: center;
 }
 
 .airconstudio {
-   display: flex;
-   align-items: center;
-   flex-wrap: wrap;
-   justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .airconstudio p {
-   padding: 0px 5px;
-   margin: 0px !important;
+  padding: 0px 5px;
+  margin: 0px !important;
 }
 
 .airconstudio a {
-   text-decoration: none;
-   font-weight: bold;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-input[type="text"], input[type="password"], input[type="search"], input[type="url"], input[type="email"], input[type="number"], input[type="tel"], select, textarea {
-   color: #333;
-   background-color: #FFF;
-   font-size: 1em;
-   border: 1px solid #d9d9d9;
-   display: inline-block;
-   padding: 0.462em 0.615em;
-   max-width: 100%;
-   -webkit-border-radius: 2px;
-   -moz-border-radius: 2px;
-   -o-border-radius: 2px;
-   border-radius: 2px;
-   -webkit-box-sizing: border-box;
-   -moz-box-sizing: border-box;
-   -o-box-sizing: border-box;
-   box-sizing: border-box;
+input[type="text"],
+input[type="password"],
+input[type="search"],
+input[type="url"],
+input[type="email"],
+input[type="number"],
+input[type="tel"],
+select,
+textarea {
+  color: #333;
+  background-color: #fff;
+  font-size: 1em;
+  border: 1px solid #d9d9d9;
+  display: inline-block;
+  padding: 0.462em 0.615em;
+  max-width: 100%;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 input[type="tel"]:focus {
-	border: 1px solid #3498DB;
+  border: 1px solid #3498db;
 }
-
 
 .soc-media-icon svg {
-   height: 4rem;
-   width: auto;
+  height: 4rem;
+  width: auto;
 }
 
-
 #social-media {
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   padding: 2rem 0 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2rem 0 5rem;
 }
