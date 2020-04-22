@@ -13,7 +13,9 @@
 		c1.042,0,3.059,0.003,3.578,0v-6.646H25.613z"/>
 	</svg></a>
 </section>
-
+<?php
+	require 'templates/components/whatsapp-banner.php'; 
+?>
 <section id="#footer-widgets" class="section  section-footer-widgets dark" data-section="footer-widgets">
 	<div class="container">
 		<div class="section-content row">
@@ -80,8 +82,7 @@
 			</div>
 		</div>
 	</div>
-</section>
-
+</section> 
 <section class="section  section-footer-bottom dark" data-section="footer-bottom">
 	<div class="container">
 		<div class="row">

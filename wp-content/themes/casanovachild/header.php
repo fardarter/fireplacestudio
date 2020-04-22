@@ -24,8 +24,6 @@
 
 </script>
 	
-	<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/primediabroadcasting/za-covid19-js/covidbar-latest.min.js?theme=grey"></script>
-	
 </head>
 
 
