@@ -2,3 +2,4 @@ wp-config.php
 *.sql
 wp-content/uploads/
 wp-content/uploads/freshframework/*
+node_modules

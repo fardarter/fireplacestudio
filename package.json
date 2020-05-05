@@ -1,0 +1,25 @@
+{
+  "name": "fireplacestudio",
+  "version": "1.0.0",
+  "description": "![Deployed via FTP](https://github.com/JohnRoux/fireplacestudio/workflows/Publish%20Website/badge.svg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "playwrite": "node testing/playwrite.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnRoux/fireplacestudio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohnRoux/fireplacestudio/issues"
+  },
+  "homepage": "https://github.com/JohnRoux/fireplacestudio#readme",
+  "devDependencies": {
+    "jest": "^25.4.0",
+    "jest-playwright-preset": "^0.1.3",
+    "playwright-chromium": "^0.15.0"
+  }
+}
